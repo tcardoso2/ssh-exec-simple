@@ -1,0 +1,28 @@
+{
+  "name": "ssh-exec-simple",
+  "version": "0.1.0",
+  "description": "A simple wrapper to ssh user@server \"Command\" which allows executing remote scripts via ssh provided the host has the permissions",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcardoso2/ssh-exec-simple.git"
+  },
+  "keywords": [
+    "ssh"
+  ],
+  "author": "Tiago Cardoso <tcardoso@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tcardoso2/ssh-exec-simple/issues"
+  },
+  "homepage": "https://github.com/tcardoso2/ssh-exec-simple#readme",
+  "devDependencies": {
+    "eslint": "^5.9.0"
+  }
+}
